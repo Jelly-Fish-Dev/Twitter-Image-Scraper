@@ -15,4 +15,8 @@ class Scrape:
                 self.img_links.append(link)
     
     def getImageLinks(self):
-        return(self.img_links)
+        print("img_link")
+        if self.img_links is not None:
+            return(self.img_links)
+        else: 
+            print("No user with that name")
