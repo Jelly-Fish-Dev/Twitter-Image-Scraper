@@ -1,5 +1,6 @@
 import requests
-from bs4 import BeautifulSoup
+import twitter
+
 
 class Scrape:
     img_links = []
@@ -10,10 +11,8 @@ class Scrape:
         soup = BeautifulSoup(r.content, 'html.parser')
 
         for images in soup.findAll("img"):
-            if link := images.get("src") is not  None:
+            if (link := images.get("src")) is not  None: #make sure to install python3.8 
                 self.img_links.append(link)
-
-
     
     def getImageLinks(self):
         return(self.img_links)
