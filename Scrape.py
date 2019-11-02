@@ -1,5 +1,5 @@
 import requests
-import twitter
+from bs4 import BeautifulSoup
 
 
 class Scrape:
@@ -11,7 +11,7 @@ class Scrape:
         soup = BeautifulSoup(r.content, 'html.parser')
 
         for images in soup.findAll("img"):
-            if (link := images.get("src")) is not  None: #make sure to install python3.8 
+            if (link := images.get("src")) is not  None and "https://pbs.twimg.com/media" in link: #make sure to install python3.8 to use the walrus
                 self.img_links.append(link)
     
     def getImageLinks(self):
