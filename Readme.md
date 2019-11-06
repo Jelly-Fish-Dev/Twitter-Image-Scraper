@@ -22,4 +22,4 @@ Please make sure that you are running Python 3.8
 
 # License
 
-This Project uses the GNU General Public License Version 3.0
+This Project uses the GNU General Public License Version 3
