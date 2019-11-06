@@ -19,3 +19,7 @@ Please make sure that you are running Python 3.8
 # Screenshots/Video
 [![asciicast](https://asciinema.org/a/WWmTLK4WRygzHdpY2lT67w8en.svg)](https://asciinema.org/a/WWmTLK4WRygzHdpY2lT67w8en)
 ![Files when downloaded](https://user-images.githubusercontent.com/15014078/68304160-4e601d80-00f9-11ea-8d77-572e9123adfc.png)
+
+# License
+
+This Project uses the GNU GENERAL PUBLIC LICENSE Version 3
