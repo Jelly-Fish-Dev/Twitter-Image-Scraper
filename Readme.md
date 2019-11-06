@@ -14,7 +14,6 @@ To run the Image Scraper, run the following command, with the Twitter Page you w
 
 ```Python3 main.py -U <User>```
 
-Please make sure that you are running Python 3.8.
 
 # Screenshots/Video
 [![asciicast](https://asciinema.org/a/WWmTLK4WRygzHdpY2lT67w8en.svg)](https://asciinema.org/a/WWmTLK4WRygzHdpY2lT67w8en)
