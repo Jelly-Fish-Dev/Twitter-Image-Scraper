@@ -7,7 +7,7 @@ To run Twitter Image Scraper, run the following pip command in your python envir
 
 ```pip install BeautifulSoup4 Requests tqdm```
 
-This Program uses PEP 572 (The Walrus Operator :=) so please make sure that you are running Python 3.8, otherwise it will not exacute
+This Program uses PEP 572 (The Walrus Operator :=) so please make sure that you are running Python 3.8, otherwise it will not execute
 # Running the Image Scraper
 
 To run the Image Scraper, run the following command, with the Twitter Page you want to download from as replacing `<User>`
