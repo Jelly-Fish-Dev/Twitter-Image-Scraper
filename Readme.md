@@ -1,6 +1,6 @@
 # Twitter Image Scraper
 
-This is a simple python script that uses [Beautiful Soup 4](https://pypi.org/project/beautifulsoup4/) and [Requests](https://pypi.org/project/requests2/) in order to Scrape images from a Twitter Users Media Tab. Unfortunately due to the Twitter API, it isn't able to download images before a cetain date
+This is a simple python script that uses [Beautiful Soup 4](https://pypi.org/project/beautifulsoup4/) and [Requests](https://pypi.org/project/requests2/) in order to Scrape images from a Twitter user's Media Tab. Unfortunately due to the Twitter API, it isn't able to download images before a cetain date
 
 # Dependencies
 To run Twitter Image Scraper, run the following pip command in your python environment
